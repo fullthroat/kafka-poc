@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hrlolli.service.CompanyService"/>
+<fullyQualifiedTypeName name="javax.xml.transform.Source"/>
+<fullyQualifiedTypeName name="data.Message"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.stream.annotation.EnableBinding"/>
+<fullyQualifiedTypeName name="org.springframework.integration.annotation.InboundChannelAdapter"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="com.hrlolli.entities.Company"/>
+<fullyQualifiedTypeName name="com.hrlolli.data.web.ErrorType"/>
+<fullyQualifiedTypeName name="com.hrlolli.data.web.Response"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="scala.util.parsing.json.JSONObject"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.stream.messaging.Source"/>
+<fullyQualifiedTypeName name="com.lollibond.company.publisher.CompanyPublisher"/>
+<fullyQualifiedTypeName name="org.springframework.integration.support.MessageBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.stream.messaging.Sink"/>
+<fullyQualifiedTypeName name="org.springframework.messaging.MessageHandler"/>
+</qualifiedTypeNameHistroy>

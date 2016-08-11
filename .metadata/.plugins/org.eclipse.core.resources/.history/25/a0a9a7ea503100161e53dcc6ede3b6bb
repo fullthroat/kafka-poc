@@ -1,0 +1,48 @@
+package com.hrlolli.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.hrlolli.entities.Company;
+import com.hrlolli.repositories.CompanyRepository;
+
+public class CompanyServiceImpl {
+
+	@Autowired
+	private CompanyRepository companyRepository;
+
+	public List<Company> searchCompanyByTitle(String title) {
+		List<Company> companyList = companyRepository.findByTitle(title);
+		return companyList;
+	}
+
+	public Company searchById(Long id) {
+
+		Company company = companyRepository.findOne(id);
+		return company;
+	}
+	
+	public String createCompany(){
+		Company company = null;
+	    try {
+	      
+	      
+	    }
+	    catch (Exception ex) {
+	      return "Error creating the user: " + ex.toString();
+	    }
+	    return "User succesfully created! (id = " + company.getId() + ")";
+	}
+	
+
+	
+	public CompanyRepository getCompanyRepository() {
+		return companyRepository;
+	}
+
+	public void setCompanyRepository(CompanyRepository companyRepository) {
+		this.companyRepository = companyRepository;
+	}
+
+}

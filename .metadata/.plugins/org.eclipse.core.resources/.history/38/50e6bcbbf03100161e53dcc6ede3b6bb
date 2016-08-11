@@ -1,0 +1,60 @@
+package com.hrlolli.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import com.hrlolli.entities.Company;
+import com.hrlolli.repositories.CompanyRepository;
+
+/*
+ * @Kaunain -- implementation of the company service, though with current architecture its not required as 
+ * patterns dictate that repositories be consumed directly from rest controllers
+ */
+
+public class CompanyServiceImpl {
+
+	@Autowired
+	private CompanyRepository companyRepository;
+
+	public List<Company> searchCompanyByTitle(String title) {
+		List<Company> companyList = companyRepository.findByTitle(title);
+		return companyList;
+	}
+
+	public Company searchById(Long id) {
+
+		Company company = companyRepository.findOne(id);
+		return company;
+	}
+
+	public String createCompany(String title, String name, String contact, String address, String contactPerson,
+			String contactPersonMobile, String city, String country, Integer employees, String businessType) {
+		Company company = new Company(title, name, contact, address, contactPerson, contactPersonMobile, city, country,
+				employees, businessType);
+		try {
+			companyRepository.save(company);
+
+		} catch (Exception ex) {
+			return "Error creating the user: " + ex.toString();
+		}
+		return "User succesfully created! (id = " + company.getId() + ")";
+	}
+
+	public String deleteCompanyById(Long id) {
+		try {
+			companyRepository.delete(id);
+		} catch (Exception ex) {
+			return "Error Deleting the Company: " + ex.toString();
+		}
+		return "Company deleted Successfully! (id = " + id + ")";
+	}
+
+	public CompanyRepository getCompanyRepository() {
+		return companyRepository;
+	}
+
+	public void setCompanyRepository(CompanyRepository companyRepository) {
+		this.companyRepository = companyRepository;
+	}
+
+}

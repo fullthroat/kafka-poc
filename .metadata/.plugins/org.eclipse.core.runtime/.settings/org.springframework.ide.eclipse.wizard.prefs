@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.cloud-stream-binder-kafka=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.data-jpa=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.web=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.artifactId=lollibond-company-listeners
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.bootVersion=1.3.5.RELEASE
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.groupId=com.lollibond
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.language=java
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.name=lollibond-company-listeners
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.packageName=com.lollibond.company
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.version=0.0.1-SNAPSHOT
